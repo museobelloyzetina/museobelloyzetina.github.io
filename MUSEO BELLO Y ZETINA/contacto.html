@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap - Prebuilt Layout</title>
+
+    <!-- Bootstrap -->
+    <link href="../MUSEO BELLO Y ZETINA/css/bootstrap-4.3.1.css" rel="stylesheet">
+    <link href="../MUSEO BELLO Y ZETINA/css/syle_expo.css" rel="stylesheet" type="text/css">
+    <link href="../MUSEO BELLO Y ZETINA/css/style_page.css" rel="stylesheet" type="text/css">
+
+    <!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
+    <script>var __adobewebfontsappname__="dreamweaver"</script>
+    <script src="http://use.edgefonts.net/playfair-display:n4:default;lato:n1:default.js" type="text/javascript"></script>
+</head>
+<body>
+<header class="bg-danger text-white fixed-top">
+    <div class="container d-flex justify-content-between align-items-center py-3">
+        <a href="../index.html">
+            <img src="img/logo_museo.png" alt="" class="img-fluid" id="logo_museo" style="max-width: 300px; height: auto;" />
+        </a>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <a class="btn btn-primary btn-lg mx-1" href="../index.html">Inicio</a>
+                <a class="btn btn-primary btn-lg mx-1" href="servicios.html">Servicios</a>
+                <a class="btn btn-primary btn-lg mx-1" href="contacto.html">Contacto</a>
+            </div>
+        </nav>
+    </div>
+</header>
+<section class="bg-light py-3">
+    <div class="container text-center">
+        <nav>
+            <ul class="nav justify-content-center">
+                <li class="nav-item"> <a class="nav-link text-danger fw-bold btn-secundario" href="familiabello.html">Familia Bello</a></li>
+                <li class="nav-item"> <a class="nav-link text-danger fw-bold btn-secundario" href="Exposicion.html">Exposiciones</a></li>
+            </ul>
+        </nav>
+    </div>
+</section>
+
+<!--formulario-->
+<div class="formulario">
+    <div class="row">
+        <div class="col-xl-5"><strong>CONTÁCTANOS:&nbsp;</strong></div>
+      <div class="col-xl-6">
+            <form method="post" name="form1" class="container-fluid" id="form1">
+                <label for="NOMBRE" class="ftexto"><span style="font-family: 'Lato Regular'"><br>Nombre</span>: </label>
+                <input name="textfield" type="text" id="nombre" required>
+                <br>
+                <label for="email" class="ftexto">Ciudad:</label>
+                <input name="textfield" type="text" id="ciudad" required>
+                <br>
+                <label for="tel" class="ftexto">Celular:</label>
+                <input name="tel" type="tel" id="tel" inputmode="numeric" pattern="\d+" size="10" maxlength="10" required>
+                <br>
+                <label for="textarea" class="ftexto">¿En qué te podemos ayudar?:</label>
+                <textarea name="textarea" id="textarea" required></textarea>
+                <br><br>
+                <input type="submit" name="submit" id="submit" value="Enviar">
+            </form>
+        </div>
+    </div>
+</div>
+<!--fin de formulario-->
+
+<footer class="text-white py-3 card-footer">
+    <div class="container d-flex justify-content-center">
+        <a href="https://www.facebook.com"><img src="../MUSEO BELLO Y ZETINA/icon/icono_facebook.png" class="img-fluid-icon" alt="Placeholder image"></a>
+        <a href="https://www.instagram.com"><img src="../MUSEO BELLO Y ZETINA/icon/icono_instagram.png" class="img-fluid-icon" alt="Placeholder image"></a>
+        <a href="https://www.youtube.com"><img src="../MUSEO BELLO Y ZETINA/icon/icono_youtube.png" class="img-fluid-icon" alt="Placeholder image"></a>
+        <a href="https://www.twitter.com"><img src="../MUSEO BELLO Y ZETINA/icon/icono_twitter.png" class="img-fluid-icon" alt="Placeholder image"></a>
+    </div>
+</footer>
+
+<div class="cmuseo"><p class="small">©MUSEO JOSÉ LUIS BELLO Y ZETINA.</p></div>
+
+<!-- jQuery (necesario para Bootstrap's JavaScript) --> 
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
+<!-- Popper.js (necesario para el menú desplegable en Bootstrap) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.3/umd/popper.min.js"></script>
+
+<!-- Bootstrap JS (para funcionalidades como el menú desplegable) -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,304 @@
+@charset "utf-8";
+@import url("../../js/MUSEO BELLO Y ZETINA/webfonts/PlayfairDisplay_ExtraBold/stylesheet.css");
+@import url("../../js/MUSEO BELLO Y ZETINA/webfonts/Lato_Regular/stylesheet.css");
+@import url("../../js/MUSEO BELLO Y ZETINA/webfonts/Lato_Light/stylesheet.css");
+@import url("../../js/MUSEO BELLO Y ZETINA/webfonts/Lato_Italic/stylesheet.css");
+@import url("../../webfonts/Lato_Italic/stylesheet.css");
+
+
+
+body {
+    padding-top: 80px;
+    margin-top: 0px;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.d-flex {
+    display: flex;
+}
+
+.bg-light.py-3 {
+    padding-top: 0px;
+    height: 75px;
+    margin-top: 55px;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    background-color: #F1F2EB;
+
+}
+    a{ text-decoration: none;
+    color:inherit;}
+    a:hover{
+    text-decoration: none;
+    color:inherit;
+}
+a.btn:hover, a.btn:focus {
+    outline: none;              
+    box-shadow: none;            
+    background-color: #A31621;   
+    color:none;                 
+}
+
+
+.btn-primary{
+    text-decoration: none;
+    color:inherit;
+    color: #B33E40;
+    background-color: #FFFFFF;
+    font-family: 'Lato Regular';
+    font-size: 16px;
+    margin-left: 24px;
+	border-radius: 10px;
+    border-color:#B33E40;
+}
+
+.btn-primary:hover{
+  color: #fff;
+  text-decoration: none;
+  text-decoration-color: #B33E40;
+  border-color: #B33E40;
+}
+
+.btn-primary:focus, .btn-primary.focus{
+    box-shadow: 0 0 0 0.2rem #A31621;
+    -webkit-box-shadow: 0 0 0 0.2rem #A31621;
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+  color: #fff;
+  background-color: #A31621;
+  border-color: #A31621;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #A31621;
+  border-color: #A31621;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(163, 22, 33, 0.5);
+    font-family: "Lato Regular";
+}
+.btn-secundario {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.nav-link {
+    font-variant: normal;
+    font-size: 22px;
+    font-family: "PlayfairDisplay ExtraBold";
+    font-weight: bold;
+}
+h2 {
+    font-family: "PlayfairDisplay ExtraBold";
+    padding-bottom: 12px;
+    padding-top: 12px;
+    color: #A31621;
+}
+p {
+    font-family: "Lato Regular";
+    font-size: small;
+    color: #000000;
+}
+.shadow {
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+
+
+
+
+#principal {
+    filter: contrast(75%)
+}
+#comedor {
+    filter: contrast(85%)
+
+}
+.img-fluid {
+    height: auto;
+    max-width: 120%;
+}
+.section-lacasa {
+
+}
+.col-información   {
+    font-family: "Lato Regular";
+    font-weight: bold;
+    font-size: large;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #FDFDFD;
+}
+.row .col-xl-12 .h2 {
+    color: #FFFFFF;
+}
+
+
+.card-footer {
+    font-family: "Lato Light";
+    background-color: #131112;
+}
+.div-icon {
+
+}
+
+
+.cmuseo  {
+    font-family: "Lato Light";
+    font-variant: normal;
+    font-size: medium;
+    background-color: #A31621;
+    color: #F9F9F9;
+    height: 50px;
+    padding-top: 13px;
+}
+
+.img-fluid-icon {
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.small {
+    text-align: center;
+    color: #FFFFFF;
+
+
+}
+.container .row .col-xl-6 {
+    padding-left: 0px;
+    margin-left: 75px;
+
+}
+.segundotexto   {
+    margin-left: 46px;
+
+
+}
+
+.row .col-xl-6 .p {
+    width: 490PX;
+}
+.salas   {
+    width: 250px;
+    margin-left: 15px;
+
+}
+.row .col-xl-6 .h2 {
+    margin-top: 16px;
+}
+#donjoseluis {
+    height: 524px;
+}
+.joseluisbello {
+    background-color: #FFFFFF;
+    height: 235px;
+    padding-right: 0px;
+    margin-right: 26px;
+    margin-top: 74px;
+    margin-bottom: 42px;
+}
+.donjoseluisbelloyzetina {
+    background-color: #F1F2EB;
+    height: auto;
+    width: 100%;
+    padding-left: 0px;
+    margin-top: 1px;
+}
+#donjoseluisbelloyzetina {
+    background-color: #F1F2EB;
+    margin-right: 55px;
+    margin-bottom: 50px;
+    margin-top: 45px;
+    margin-left: 4px;
+}
+.row.align-items-center .container.col-md-6 .text-danger {
+    margin-top: 50px;
+}
+.row.align-items-center .container.col-md-6 p {
+    height: auto;
+    width: 400px;
+}
+#donjoseluisbelloyzetina {
+}
+.visitasguiadas   {
+    width: 490px;
+}
+.salaslista   {
+
+}
+#recamara {
+    margin-top: 32px;
+}
+#caballo {
+    margin-top: 50px;
+    margin-right: 26px;
+    margin-bottom: 40px;
+}
+#vajilla {
+    width: 246px;
+
+}
+.eventos1 {
+    background-color: #F1F2EB;
+}
+
+.eventos {
+    background-color: #F1F2EB;
+}
+.row .col-xl-6 #cartel {
+}
+#cartel {
+    margin-top: 20px;
+}
+#eventosnocturnos {
+    margin-top: 50px;
+}
+.descriptivocartel {
+    width: 300px;
+    margin-top: 20px;
+    font-family: "Lato Italic";
+
+}
+.descriptivoeventosnocturnos {
+    width: 500px;
+    font-family: "Lato Italic";
+    margin-top: 20px;
+
+}
+.titulocarrusel {
+    color: #FEFEFE;
+    font-family: playfair-display;
+    font-style: normal;
+    font-weight: 400;
+}
+.parrafocarrusel {
+    color: #F7F4F4;
+    margin-right: 130px;
+    text-align: justify;
+}
+.bencabezado {
+    color: #000000;
+}
+#donjoseluisbelloyzetina {
+}
+.informacion {
+    color: #FFFFFF;
+}
+#fachada {
+    margin-left: 27px;
+}
